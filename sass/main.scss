@@ -8,6 +8,15 @@ body {
   color:#666;
 }
 
+a {
+  text-decoration:none;
+  transition:color .2s ease-in-out;
+  color:#00D4C0;
+  &:hover {
+    color:shade(#00D4C0, 35%);
+  }
+}
+
 body > header h1, {
   color:black;
   font-size:2.3em;
@@ -73,6 +82,7 @@ section {
 }
 
 .project {
+  transition:all .2s ease-in-out;
   border:solid 1px #666;
   border-radius:7px;
   padding:27px 20px 10px 20px;
@@ -83,6 +93,10 @@ section {
   @include display(flex);
   @include flex-direction(column);
   @include justify-content(space-between);
+
+  &:hover {
+    transform: scale(1.09);
+  }
 
   .links {
     margin-top:1em;
