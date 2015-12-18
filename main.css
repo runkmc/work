@@ -59,4 +59,9 @@ header > p {
   line-height: 1.4em;
   font-weight: 400; }
 
+.project h1 {
+  font-size: 1.8em;
+  font-weight: 300;
+  color: #CF000F; }
+
 /*# sourceMappingURL=main.css.map */
