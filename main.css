@@ -78,12 +78,19 @@ body {
   margin: 0 15px; }
 
 header {
-  text-align: right;
+  text-align: center;
   width: 550px;
   max-width: 100%;
   padding-top: 40px; }
+  @media (min-width: 651px) {
+    header {
+      margin-top: 100px;
+      text-align: right; } }
   header p {
     padding: 2em 0; }
+    @media (min-width: 651px) {
+      header p {
+        margin-bottom: 50px; } }
 
 section {
   display: -webkit-box;
