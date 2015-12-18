@@ -79,8 +79,11 @@ body {
 
 header {
   text-align: right;
-  width: 520px;
-  max-width: 100%; }
+  width: 580px;
+  max-width: 100%;
+  padding-top: 40px; }
+  header p {
+    padding: 2em 0; }
 
 section {
   display: -webkit-box;
@@ -129,9 +132,9 @@ section {
 .project {
   border: solid 1px #666;
   border-radius: 7px;
-  padding: 20px 27px 10px 27px;
-  min-height: 280px;
-  width: 466px;
+  padding: 27px 20px 10px 20px;
+  min-height: 300px;
+  width: 520px;
   max-width: 83%;
   margin: 20px; }
 
