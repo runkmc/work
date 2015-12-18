@@ -79,7 +79,7 @@ body {
 
 header {
   text-align: right;
-  width: 580px;
+  width: 550px;
   max-width: 100%;
   padding-top: 40px; }
   header p {
@@ -134,7 +134,7 @@ section {
   border-radius: 7px;
   padding: 27px 20px 10px 20px;
   min-height: 300px;
-  width: 520px;
+  width: 490px;
   max-width: 83%;
   margin: 20px;
   display: -webkit-box;
