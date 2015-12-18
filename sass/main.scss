@@ -5,9 +5,11 @@
 
 body {
   font-family:"Fira Sans";
+  color:#666;
 }
 
 body > header h1, {
+  color:black;
   font-size:2.3em;
   line-height:1.2em;
   font-weight: 900;
@@ -15,14 +17,56 @@ body > header h1, {
 
 header > p {
   color:#666;
-  font-size:1.15em;
+  font-size:1.2em;
   line-height:1.4em;
   font-weight:400;
 }
 
-.project h1 {
-  font-size:1.8em;
-  font-weight:300;
-  color:#CF000F;
+.project {
+  h1 {
+    font-size:1.8em;
+    font-weight:300;
+    color:#CF000F;
+    padding-bottom:0.2em;
+  }
+  h2 {
+    font-size:1.2em;
+    line-height:1.2em;
+    padding-bottom:1.2em;
+    font-weight:600;
+  }
+  p {
+    line-height:1.45em;
+  }
 }
   
+// layout
+
+body {
+  margin:0 15px;
+}
+
+header {
+  text-align:right;
+  width:520px;
+  max-width:100%;
+}
+
+section {
+  @include display(flex);
+  @include flex-direction(row);
+  @include flex-wrap(wrap);
+  @include justify-content(flex-start);
+  @include align-items(flex-start);
+}
+
+.project {
+  border:solid 1px #666;
+  border-radius:7px;
+  padding:20px 27px 10px 27px;
+  min-height:280px;
+  width:466px;
+  max-width:83%;
+  margin:20px;
+}
+
