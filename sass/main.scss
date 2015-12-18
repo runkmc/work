@@ -73,5 +73,11 @@ section {
   width:520px;
   max-width:83%;
   margin:20px;
-}
+  @include display(flex);
+  @include flex-direction(column);
+  @include justify-content(space-between);
 
+  .links {
+    margin-top:1em;
+  }
+}
