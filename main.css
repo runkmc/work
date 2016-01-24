@@ -46,7 +46,7 @@ table {
   border-spacing: 0; }
 
 body {
-  font-family: "Fira Sans";
+  font-family: -apple-system,sans-serif;
   color: #666; }
 
 a {
