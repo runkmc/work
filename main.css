@@ -179,7 +179,7 @@ section {
   justify-content: space-between;
   -ms-flex-pack: justify; }
   .project:hover {
-    transform: scale(1.09); }
+    transform: scale(1.04); }
   .project .links {
     margin-top: 1em; }
 
